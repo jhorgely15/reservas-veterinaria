@@ -1,86 +1,99 @@
-El Sistema de Reservas Veterinarias es una aplicación web desarrollada con Python y Flask, cuyo objetivo es gestionar de manera sencilla las reservas de atención veterinaria.
+# Sistema de Reservas Veterinarias
 
-Este proyecto fue desarrollado utilizando Git y GitHub como herramientas de control de versiones, aplicando commits, ramas, stash, resolución de conflictos, rebase y etiquetas de versión.
+## Descripción
 
-🛠️ Tecnologías utilizadas
+Aplicación web desarrollada con Flask para gestionar un sistema básico de reservas veterinarias. El proyecto fue desarrollado utilizando Git para controlar las diferentes versiones y cambios realizados durante su desarrollo.
 
-Python 3
-Flask 3.1.2
-Git
-GitHub
-HTML
+## Tecnologías utilizadas
 
-🐶 Funcionalidades
+* Python
+* Flask
+* Git
+* GitHub
 
-El proyecto incluye las siguientes funcionalidades:
+## Instalación
 
-Página principal del sistema.
-Visualización de reservas.
-Creación de nuevas reservas.
-Edición de reservas.
-Gestión de cambios mediante Git.
+Clonar el repositorio:
 
-🌿 Ramas utilizadas
+```bash
+git clone URL_DEL_REPOSITORIO
+```
 
-Durante el desarrollo se utilizaron ramas para separar las diferentes etapas del proyecto.
+Ingresar a la carpeta:
 
-Rama principal
-main
+```bash
+cd sistema-reservas-veterinaria
+```
 
-Contiene las versiones estables del proyecto.
+Instalar las dependencias:
 
-Rama de desarrollo
-develop
+```bash
+pip install -r requirements.txt
+```
 
-Se utiliza para desarrollar nuevas funcionalidades y realizar pruebas antes de incorporarlas a la versión principal.
+## Ejecución
 
-Ramas de funcionalidades
+Ejecutar la aplicación con:
 
-También pueden utilizarse ramas específicas para nuevas características:
+```bash
+python app.py
+```
 
+Luego abrir en el navegador:
+
+```text
+http://127.0.0.1:5000
+```
+
+## Funcionalidades
+
+Actualmente el sistema permite:
+
+* Visualizar la página principal.
+* Consultar las reservas.
+* Crear una nueva reserva.
+* Editar una reserva.
+
+## Control de versiones
+
+Durante el desarrollo se utilizaron diferentes funcionalidades de Git:
+
+* Commit inicial.
+* Commits significativos.
+* Rama de desarrollo.
+* Git Stash.
+* Simulación y resolución de conflictos.
+* Rebase interactivo.
+* Tags para identificar versiones.
+
+## Contribución
+
+Para contribuir al proyecto:
+
+1. Clonar el repositorio.
+2. Crear una nueva rama:
+
+```bash
 git checkout -b feature/nueva-funcionalidad
+```
 
-📚 Control de versiones
+3. Realizar los cambios.
+4. Crear un commit:
 
-Para este proyecto se aplicaron diferentes herramientas de Git solicitadas en la actividad.
-
-Commit inicial
-
-Se realizó un commit inicial para guardar el estado original del proyecto:
-
+```bash
 git add .
-git commit -m "feat: commit inicial del sistema de reservas"
-Commits significativos
+git commit -m "feat: agregar nueva funcionalidad"
+```
 
-Los cambios se guardaron mediante commits que representan funcionalidades o modificaciones concretas.
+5. Subir la rama al repositorio:
 
-Ejemplo:
+```bash
+git push origin feature/nueva-funcionalidad
+```
 
-git commit -m "feat: agregar ruta para nuevas reservas"
-Git Stash
+6. Crear un Pull Request para revisar los cambios.
 
-Se utilizó git stash para guardar temporalmente cambios que todavía no estaban listos para ser confirmados:
 
-git stash
-
-Para recuperar los cambios:
-
-git stash pop
-Resolución de conflictos
-
-Se simuló un conflicto entre ramas modificando la misma sección del código.
-
-El conflicto fue revisado manualmente y posteriormente solucionado, realizando un nuevo commit:
-
-git add .
-git commit -m "fix: resolver conflicto en mensaje principal"
-Rebase interactivo
-
-Se utilizó un rebase interactivo para organizar y limpiar la historia de commits:
-
-git rebase -i HEAD~3
-
-Esto permitió combinar commits relacionados y mantener una historia más ordenada.
 
 👩‍💻 Autora
 Jhorgely Correa A.
