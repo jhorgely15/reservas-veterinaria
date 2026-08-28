@@ -10,5 +10,9 @@ def inicio():
 def reservas():
     return "<h2>Listado de reservas</h2>"
 
+@app.route("/reservas/nueva")
+def nueva_reserva():
+    return "<h2>Crear nueva reserva</h2>"
+
 if __name__ == "__main__":
     app.run(debug=True)
