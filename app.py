@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def inicio():
-    return "<h1> Sistema de Reservas Veterinarias</h1>"
+    return "<h1> Bienvenido al Sistema de Reservas Veterinarias</h1>"
 
 @app.route("/reservas")
 def reservas():
