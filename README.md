@@ -22,7 +22,7 @@ git clone URL_DEL_REPOSITORIO
 Ingresar a la carpeta:
 
 ```bash
-cd sistema-reservas-veterinaria
+cd reservas-veterinaria
 ```
 
 Instalar las dependencias:
