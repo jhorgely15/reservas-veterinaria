@@ -1,4 +1,4 @@
-# Sistema de Reservas para mascotas
+# Sistema de Reservas Veterinarias
 
 ## Descripción
 
