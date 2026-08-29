@@ -1,4 +1,4 @@
-# Sistema de Reservas 
+# Sistema de Reservas para mascotas
 
 ## Descripción
 
@@ -92,6 +92,10 @@ git push origin feature/nueva-funcionalidad
 ```
 
 6. Crear un Pull Request para revisar los cambios.
+
+ Versión de desarrollo
+
+Esta versión corresponde a la rama develop utilizada para realizar mejoras en el sistema.
 
 
 
