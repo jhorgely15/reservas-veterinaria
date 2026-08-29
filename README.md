@@ -97,6 +97,8 @@ git push origin feature/nueva-funcionalidad
 
 Esta versión corresponde a la rama develop utilizada para realizar mejoras en el sistema.
 
+## Cambio temporal
+Este cambio todavía no está terminado.
 
 
 👩‍💻 Autora
