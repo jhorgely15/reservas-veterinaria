@@ -16,7 +16,7 @@ Aplicación web desarrollada con Flask para gestionar un sistema básico de rese
 Clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/jhorgely15/reservas-veterinaria
 ```
 
 Ingresar a la carpeta:
